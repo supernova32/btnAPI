@@ -3,7 +3,7 @@ __author__ = 'pato'
 import jsonrpclib, json
 
 class BTNAPIClass:
-    key = "f55626b2101fff21666cd230c600eea7"
+    key = "key"
     api = jsonrpclib.Server("http://api.btnapps.net")
     #api = jsonrpclib.Server("http://de1.freedomvpn.info/test.php")
 
